@@ -51,9 +51,8 @@ style: style.css
 --
 
 <h1>Famous People</h1>
-<h2>Lost in Time</h2>
-
---
+<h2>If I have seen further it is by standing on the sholders \[sic\] of Giants - Issac Newton</h2>
+--------------------------------------------------------------------------------------------------
 
 ### ???
 
@@ -98,7 +97,7 @@ style: style.css
 
 ![center](images/john-von-neumann.gif)
 
--- 
+--
 
 ### John von Neumann
 
@@ -106,3 +105,74 @@ style: style.css
     are both stored in the computer's memory in the same address space.
 
 ![center](images/von-neumann-architecture.png)
+
+--
+
+### ???
+
+![center](images/claude-shannon.jpg)
+
+--
+
+### Claude Shannon
+
+-   Invented the digital circuit as his Master's Thesis
+
+-   Howard Gardner called Shannon's thesis "possibly the most important,
+    and also the most noted, master's thesis of the century."
+
+-   Invented Information Theory (bits and bytes)
+
+--
+
+<h1>Useful Stuff Lasts a Long Time</h1>
+<h2>or why writing software is like sex</h2>
+--------------------------------------------
+
+#### One mistake and you end up supporting it the rest of your life
+
+--
+
+### Jacquard Loom
+
+![center](images/jacquard-loom.jpg)
+
+--
+
+### Jacquard Loom
+
+-   used replaceable punched cards to control a sequence of operations.
+
+-   It is considered an important step in the history of computing
+    hardware.
+
+-   The ability to change the pattern of the loom's weave by simply
+    changing cards was an important conceptual precursor to the
+    development of computer programming and data entry. --
+
+--
+
+### Herman Hollerith
+
+Inventor who developed an electromechanical punched card tabulator to
+assist in summarizing information and, later, accounting.
+
+![center](images/hollerith_cunched_card.jpg)
+
+--
+
+### Null Reference
+
+C.A.R. Hoare invented the null reference in 1965 as part of the Algol W
+language.
+
+> I call it my billion-dollar mistake. It was the invention of the null
+> reference in 1965. At that time, I was designing the first
+> comprehensive type system for references in an object oriented
+> language (ALGOL W). My goal was to ensure that all use of references
+> should be absolutely safe, with checking performed automatically by
+> the compiler. But I couldn't resist the temptation to put in a null
+> reference, simply because it was so easy to implement. This has led to
+> innumerable errors, vulnerabilities, and system crashes, which have
+> probably caused a billion dollars of pain and damage in the last forty
+> years.
