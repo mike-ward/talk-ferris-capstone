@@ -51,8 +51,8 @@ style: style.css
 --
 
 <h1>Famous People</h1>
-<h2>If I have seen further it is by standing on the sholders \[sic\] of Giants - Issac Newton</h2>
---------------------------------------------------------------------------------------------------
+<h2>“If I have seen further it is by standing on the sholders \[sic\] of Giants” ― Issac Newton</h2>
+----------------------------------------------------------------------------------------------------
 
 ### ???
 
@@ -176,3 +176,100 @@ language.
 > innumerable errors, vulnerabilities, and system crashes, which have
 > probably caused a billion dollars of pain and damage in the last forty
 > years.
+
+--
+
+### Standards
+
+![center](images/standards.png)
+
+--
+
+<h1>Functional Programming</h1>
+<h2>“Computer programs are the most complex things that humans make.” 
+― Douglas Crockford, JavaScript: The Good Parts</h2>
+
+------------------------------------------------------------------------
+
+### Origins Functional Programming
+
+-   John McCarthy invented Lisp in the late 1950s
+
+-   Around 1959, he invented so-called "garbage collection" methods to
+    solve problems in Lisp.
+
+-   Lisp is the second-oldest high-level programming language in
+    widespread use today. Only Fortran is older, by one year.
+
+-   Lisp pioneered many ideas in computer science, including tree data
+    structures, automatic storage management, dynamic typing,
+    conditionals, higher-order functions and recursion.
+
+--
+
+### First Class Functions
+
+Generally speaking, functional languages have first-class functions
+
+-   Supports passing functions as arguments to other functions
+
+-   Returning functions as the values from other functions
+
+-   Assigning functions to variables or storing them in data structures
+
+#### What's the world's most popular functional language?
+
+--
+
+### JavaScript
+
+``` javascript
+var x2 = x => x * 2;
+var x2e = x => x2(x2(x));
+console.log(x2e(2)); // => 8
+
+var Y = function (h) {
+    return (function (f) {
+        return f(f);
+    })(function (f) {
+        return h(function (n) {
+            return f(f)(n);
+        });
+    });
+};
+
+var fact = Y(function (g) {
+    return function (n) {
+        if (n < 2) return 1;
+        return n * g(n - 1);
+    };
+});
+
+fact(7) // => 5040
+```
+
+--
+
+### JavaScript, The Good Parts
+
+![center](images/the-good-parts.jpg)
+
+--
+
+### Douglas Crockford
+
+-   JavaScript is the only language that I'm aware of that people feel
+    they don't need to learn before they start using it.
+
+-   JavaScript is a language with more than its share of bad parts
+
+-   Most programming languages contain good parts and bad parts. I
+    discovered that I could be better programmer by using only the good
+    parts and avoiding the bad parts.
+
+--
+
+<h1>Career</h1>
+<h2>“Programmers are as emotional and irrational as normal people” - Douglas Crockford</h2>
+-------------------------------------------------------------------------------------------
+

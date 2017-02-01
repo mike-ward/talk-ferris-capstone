@@ -479,9 +479,9 @@ community</p>
   </div>
   <div class="slide hidden " id="slide-6">
     <section class="slide-content"><p><h1>Famous People</h1></p>
-<h2>If I have seen further it is by standing on the sholders [sic] of Giants - Issac Newton</h2></section>
+<h2>“If I have seen further it is by standing on the sholders [sic] of Giants” ― Issac Newton</h2></section>
   </div>
-  <div class="slide hidden ------------------------------------------------------------------------------------------------" id="slide-7">
+  <div class="slide hidden --------------------------------------------------------------------------------------------------" id="slide-7">
     <section class="slide-content"><h3 id="-">???</h3>
 <p><img src="images/grace-hopper.jpg" alt="center"></p>
 </section>
@@ -607,7 +607,102 @@ years.</p>
 </blockquote>
 </section>
   </div>
-  <div class="slide hidden author-slide" id="slide-21">
+  <div class="slide hidden " id="slide-21">
+    <section class="slide-content"><h3 id="standards">Standards</h3>
+<p><img src="images/standards.png" alt="center"></p>
+</section>
+  </div>
+  <div class="slide hidden " id="slide-22">
+    <section class="slide-content"><p><h1>Functional Programming</h1></p>
+<h2>“Computer programs are the most complex things that humans make.” 
+― Douglas Crockford, JavaScript: The Good Parts</h2></section>
+  </div>
+  <div class="slide hidden ----------------------------------------------------------------------" id="slide-23">
+    <section class="slide-content"><h3 id="origins-functional-programming">Origins Functional Programming</h3>
+<ul>
+<li><p>John McCarthy invented Lisp in the late 1950s</p>
+</li>
+<li><p>Around 1959, he invented so-called &quot;garbage collection&quot; methods to
+solve problems in Lisp.</p>
+</li>
+<li><p>Lisp is the second-oldest high-level programming language in
+widespread use today. Only Fortran is older, by one year.</p>
+</li>
+<li><p>Lisp pioneered many ideas in computer science, including tree data
+structures, automatic storage management, dynamic typing,
+conditionals, higher-order functions and recursion.</p>
+</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden " id="slide-24">
+    <section class="slide-content"><h3 id="first-class-functions">First Class Functions</h3>
+<p>Generally speaking, functional languages have first-class functions</p>
+<ul>
+<li><p>Supports passing functions as arguments to other functions</p>
+</li>
+<li><p>Returning functions as the values from other functions</p>
+</li>
+<li><p>Assigning functions to variables or storing them in data structures</p>
+</li>
+</ul>
+<h4 id="what-s-the-world-s-most-popular-functional-language-">What&#39;s the world&#39;s most popular functional language?</h4>
+</section>
+  </div>
+  <div class="slide hidden " id="slide-25">
+    <section class="slide-content"><h3 id="javascript">JavaScript</h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> x2 = x =&gt; x * <span class="hljs-number">2</span>;
+<span class="hljs-keyword">var</span> x2e = x =&gt; x2(x2(x));
+<span class="hljs-built_in">console</span>.log(x2e(<span class="hljs-number">2</span>)); <span class="hljs-comment">// =&gt; 8</span>
+
+<span class="hljs-keyword">var</span> Y = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">h</span>) </span>{
+    <span class="hljs-keyword">return</span> (<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">f</span>) </span>{
+        <span class="hljs-keyword">return</span> f(f);
+    })(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">f</span>) </span>{
+        <span class="hljs-keyword">return</span> h(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">n</span>) </span>{
+            <span class="hljs-keyword">return</span> f(f)(n);
+        });
+    });
+};
+
+<span class="hljs-keyword">var</span> fact = Y(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">g</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">n</span>) </span>{
+        <span class="hljs-keyword">if</span> (n &lt; <span class="hljs-number">2</span>) <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+        <span class="hljs-keyword">return</span> n * g(n - <span class="hljs-number">1</span>);
+    };
+});
+
+fact(<span class="hljs-number">7</span>) <span class="hljs-comment">// =&gt; 5040</span></code></pre>
+</section>
+  </div>
+  <div class="slide hidden " id="slide-26">
+    <section class="slide-content"><h3 id="javascript-the-good-parts">JavaScript, The Good Parts</h3>
+<p><img src="images/the-good-parts.jpg" alt="center"></p>
+</section>
+  </div>
+  <div class="slide hidden " id="slide-27">
+    <section class="slide-content"><h3 id="douglas-crockford">Douglas Crockford</h3>
+<ul>
+<li><p>JavaScript is the only language that I&#39;m aware of that people feel
+they don&#39;t need to learn before they start using it.</p>
+</li>
+<li><p>JavaScript is a language with more than its share of bad parts</p>
+</li>
+<li><p>Most programming languages contain good parts and bad parts. I
+discovered that I could be better programmer by using only the good
+parts and avoiding the bad parts.</p>
+</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden " id="slide-28">
+    <section class="slide-content"><p><h1>Career</h1></p>
+<h2>“Programmers are as emotional and irrational as normal people” - Douglas Crockford</h2></section>
+  </div>
+  <div class="slide hidden -----------------------------------------------------------------------------------------" id="slide-29">
+    <section class="slide-content"></section>
+  </div>
+  <div class="slide hidden author-slide" id="slide-30">
     <section class="slide-content"><div class="author">
   <h1 class="name">Mike Ward</h1>
     <h3 class="twitter">
