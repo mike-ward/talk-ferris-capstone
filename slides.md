@@ -250,7 +250,7 @@ fact(7) // => 5040
 
 --
 
-### JavaScript, The Good Parts
+### JavaScript: The Good Parts
 
 ![center](images/the-good-parts.jpg)
 
@@ -272,4 +272,73 @@ fact(7) // => 5040
 <h1>Career</h1>
 <h2>“Programmers are as emotional and irrational as normal people” - Douglas Crockford</h2>
 -------------------------------------------------------------------------------------------
+
+### You are not an Impostor
+
+You'll meet amazing people who are smarter than you.
+
+Get use to it.
+
+--
+
+### Be Kind
+
+You'll meet amazing people who are not smarter than you.
+
+Get over yourself.
+
+--
+
+### Blog
+
+-   The only way to get better is to put it out there
+
+-   You'll say stupid things and people will take you to task for it
+
+-   Build your brand
+
+-   Experiment
+
+--
+
+### Side Projects
+
+-   The best programmers I know have side projects
+
+-   Side projects teach you more than your job will
+
+-   Treat you side projects like real projects
+
+--
+
+### Participate in Open Source
+
+-   Many companies want to see your GitHub logs
+
+-   The best programmers I know work on open source projects
+
+-   You don't have to code to participate
+
+--
+
+### Speak at Conferences
+
+-   Not scary once you understand that the audience is rooting for you
+
+-   Teaching is the best way to learn (you don't have to be an expert)
+
+-   It's great practice for persuading others
+
+-   You get to go to conferences for free
+
+-   Chicks dig speakers (not really)
+
+--
+
+<h1>Last Thougs</h1>
+<h2>(Use a spell checker)</h2>
+<p>&nbsp;</p>
+<h2>“Programming is difficult business. It should never be undertaken in ignorance” - Douglas Crockford</h2>
+
+
 
